@@ -713,11 +713,11 @@ footer{background:var(--teal-dark);color:#9FC6CA;text-align:center;font-size:11.
 var DATA = {};
 
 /* ---------- CSV URLs (one per theme sheet) ---------- */
-const CSV_URLS = {
-  allReasons:  'https://docs.google.com/spreadsheets/d/e/2PACX-1vTMjDuUhxNxoUHGYkcu8p8l5ohc-Vn9eEkc9ZTBHXlFCAXVCXQWZK4zcD6VCs2Xx9caJeh1rrUb2PYb/pub?output=csv',
-  employment:  'https://docs.google.com/spreadsheets/d/e/2PACX-1vR8e6qyXZRRc-S6Zy2fYk6GvXIHHMO6wtDHmSFmgkm2XKW7cpCSMViK0YvgeJnlURDQKEXx1Qrwlgz4/pub?output=csv',
-  healthcare:  'https://docs.google.com/spreadsheets/d/e/2PACX-1vT-1jih6IP86hYWFzkyNGQu4p3a62MlIKdEH-UzpARUlHRD9RpiDb-E9_OBnJ6nDCic59I-tuIWddW8/pub?output=csv'
-};
+   const CSV_URLS = {
+     allReasons:  'DATASETS/all_reason_combined.csv',
+     employment:  'DATASETS/employment_combined.csv',
+     healthcare:  'DATASETS/healthcare_combined.csv'
+   };
 
 /* ---------- Minimal RFC 4180 CSV parser ---------- */
 function parseCSV(text) {
